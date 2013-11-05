@@ -11,7 +11,8 @@ trait LayoutShooter {
 
   /** Makes page layout screenshot
     *
-    * Hide text on webpage, replace images with placeholder and make screenshot.
+    * Hide text on webpage, replace images with placeholder and make screenshot
+    * 
     * @param webdriver with JavascriptExecutor and TakesScreenshot behaviour
     * @return screenshot of webpage layout
     */
@@ -28,5 +29,5 @@ trait LayoutShooter {
 
     ImageIO.read(stream)
 	}
-
+	
 }
