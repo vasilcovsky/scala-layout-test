@@ -1,5 +1,5 @@
 if (typeof jQuery == 'undefined') {
-	var headElement = document.getElementsByTagName("head")[0];
+  var headElement = document.getElementsByTagName("head")[0];
   linkElement = document.createElement("script");
   linkElement.src = "http://code.jquery.com/jquery-1.10.2.min.js";
   linkElement.type = "text/javascript";
